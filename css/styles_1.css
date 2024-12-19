@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 60px;
+    padding: 0;
+    background: linear-gradient(to bottom, #435bf8, #000000);
+    color: white;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #444;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: rgb(117, 149, 171);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+.sidebar {
+    background-color: #2c3e50;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sidebar ul li a:hover {
+    color: #ffcc00;
+}
+
+.maincontent {
+    margin-left: 220px;
+    padding: 20px;
+    max-width: 800px;
+}
+
+h1, h2 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #66cc66;
+}
+
+.snowboarding-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.tips p {
+    margin-bottom: 15px;
+}
+
+.button-box {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.button-box:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #444;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.tableau-container,
+.video {
+    margin: 20px 0;
+    text-align: center;
+}
